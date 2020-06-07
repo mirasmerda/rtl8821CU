@@ -180,6 +180,7 @@ static struct usb_device_id rtw_usb_id_tbl[] = {
 
 #ifdef CONFIG_RTL8821A
 	/*=== Realtek demoboard ===*/
+	{USB_DEVICE(USB_VENDER_ID_REALTEK, 0xC811), .driver_info = RTL8821}, /* COMFAST CF-811AC */
 	{USB_DEVICE(USB_VENDER_ID_REALTEK, 0x0811), .driver_info = RTL8821}, /* Default ID */
 	{USB_DEVICE(USB_VENDER_ID_REALTEK, 0x0821), .driver_info = RTL8821}, /* Default ID */
 	{USB_DEVICE(USB_VENDER_ID_REALTEK, 0x8822), .driver_info = RTL8821}, /* Default ID */
